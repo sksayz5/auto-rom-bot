@@ -72,9 +72,9 @@ def format_caption():
 """
     return caption
 
-def get_bangladesh_time():
-    """Get the current time and date in Bangladesh Standard Time (BST)."""
-    tz = pytz.timezone("Asia/Dhaka")
+def get_Indian_time():
+    """Get the current time and date in Indian Standard Time (BST)."""
+    tz = pytz.timezone("Asia/Kolkata")
     now = datetime.now(tz)
     time = now.strftime("%I:%M %p")
     date = now.strftime("%d-%B-%Y")
@@ -82,11 +82,11 @@ def get_bangladesh_time():
 
 def format_footer():
     """Generate the footer for the post with additional info."""
-    time, date = get_bangladesh_time()
+    time, date = get_Indian_time()
     footer = f"""
 ---
 *Date:* `{date}`
-*Time:* `{time} GMT+6 Bangladesh (BST)`
+*Time:* `{time} GMT+5:30 Indian (IST)`
 
 *Note:* `This post was generated automatically by the bot and may contain pre-scheduled updates`
 """
