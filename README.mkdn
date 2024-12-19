@@ -11,7 +11,7 @@ The required Python packages are:
 - Add that bot to specific chat
 2. Clone this repository and navigate to project folder:
 ```bash
-git clone -b crDroid https://github.com/tanvirr007/auto-rom-post-bot.git && cd auto-rom-post-bot
+git clone -b crDroid https://github.com/sksayz5/auto-rom-post-bot.git && cd auto-rom-post-bot
 ```
 3. Install dependencies by running:
 ```bash
